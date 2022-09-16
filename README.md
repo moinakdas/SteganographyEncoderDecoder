@@ -3,7 +3,7 @@ SteganographyEncoderDecoder is a program to encode images with messages with onl
 
 ## Installation
 
-Use the [git](https://git-scm.com/) to clone this repository
+Use the [git](https://git-scm.com/) tool to clone this repository.
 
 ```bash
 git clone https://github.com/Sadkoi/SteganographyEncoderDecoder
@@ -17,14 +17,14 @@ Once you have cloned the repository, navigate to the directory with the Steganog
 javac Steganography.java
 ```
 
-To encode a message in your image, run the script with your message and the path to your image
-For example, the following will encode the string "Hello World" to a PNG file located in the same directory
+To encode a message in your image, run the script with your message and the path to your image.
+For example, the following will encode the string "Hello World" to a PNG file located in the same directory.
 
 ```bash
 java Steganography "Hello World" MyImage.png
 ```
 
-To decode a message from an image, run the script with just the path to your image
+To decode a message from an image, run the script with just the path to your image.
 For example, the following will decode the PNG file encoded in the previous section.
 
 ```bash
