@@ -11,10 +11,11 @@ git clone https://github.com/Sadkoi/SteganographyEncoderDecoder
 
 ## Usage
 
-Once you have cloned the repository, navigate to the directory with the Steganography.java file and compile it.
+Once you have cloned the repository, navigate to the directory with the files and compile both.
 
 ```bash
 javac Steganography.java
+javac Picture.java
 ```
 
 To encode a message in your image, run the script with your message and the path to your image.
